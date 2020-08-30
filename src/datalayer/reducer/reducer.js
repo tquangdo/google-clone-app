@@ -1,14 +1,12 @@
+import { SET_SEARCH_TERM } from "../action/ActionType";
+
 export const initialState = {
   term: null,
 };
-export const actionTypes = {
-  SET_SEARCH_TERM: "SET_SEARCH_TERM",
-};
-const reducer = (state, action) => {
-  console.log(action);
-
+const reducer = (state = initialState, action) => {
+  //Project này KO xài state
   switch (action.type) {
-    case "SET_SEARCH_TERM":
+    case SET_SEARCH_TERM:
       return {
         ...state,
         term: action.term,

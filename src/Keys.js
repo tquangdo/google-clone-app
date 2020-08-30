@@ -1,3 +1,3 @@
-export const API_KEY = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
-
-export default API_KEY;
+export const API_KEY = "xxx";
+export const CONTEXT_KEY = "xxx";
+export const FB_AUTH_DOMAIN = "xxx";
